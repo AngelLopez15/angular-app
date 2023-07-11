@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  // No es necesario poner la palabra const o let para declarar una variable
+  // si es necesario tiparlo
+  resultado:number = 10;
+
+  // No es necesario poner la palabra function para declarar una funcion
+  // pero si se deben de tipar los parametros
+  sumar (a:number, b:number) {
+    this.resultado = a + b;
+  }
 }
