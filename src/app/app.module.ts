@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { AtributoComponent } from './atributo/atributo.component';
+import { EstructuralComponent } from './estructural/estructural.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    AtributoComponent,
+    EstructuralComponent
   ],
   imports: [
     BrowserModule
